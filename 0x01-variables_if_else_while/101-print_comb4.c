@@ -23,8 +23,8 @@ int main(void)
 	putchar(q);
 	if (d == '7' && p == '8')
 	continue;
-	putchar(',')
-	putchar(' ')
+	putchar(',');
+	putchar(' ');
 	}
 	}
 	}
