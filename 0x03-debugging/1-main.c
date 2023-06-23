@@ -17,12 +17,7 @@ int largest_number(int a, int b, int c)
 	else if (b > a && a > c)
 	{
 		largest = b;
-	}
-	// comment out the else condition to avoid infinite loop
-	// else
-	//{
-	// largest = c;
-        //} 
+	} 
 	
 	      return  largest = c;
 }
