@@ -18,8 +18,8 @@ while (n / div > 9)
 div *= 10;
 for (; div >= 1; div /= 10)
 {
-digit = n/ div;
-n = n - (digit * div);
+digit = n / div;
+n = (digit *div);
 _putchar('0' + digit);
 }
 }
