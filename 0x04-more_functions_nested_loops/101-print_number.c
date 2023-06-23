@@ -1,19 +1,25 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_number - print
+ * @n: input
+ * Return: Null
  */
-int main(void)
+void print_number(int n)
 {
-print_number(98);
-_putchar('\n');
-print_number(402);
-_putchar('\n');
-print_number(1024);
-_putchar('\n');
-print_number(0);
-_putchar('\n');
-return (0);
+int div = 1;
+int digit;
+if (n < 0)
+{
+n *= -1;
+_putchar('-');
+}
+while (n / div > 9)
+div *= 10;
+for (; div >= 1; div /= 10)
+{
+digit = n/ div;
+n = n - (digit * div);
+_putchar('0' + digit);
+}
 }
