@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts(char *str)
+ * _puts - Prints a string
  * @str: The string to print
  * Return: void
  */
@@ -11,5 +11,5 @@ void _puts(char *str)
 	{
 	_putchar(*str);
 	}
-	_putcha('\n');
+	_putchar('\n');
 }
