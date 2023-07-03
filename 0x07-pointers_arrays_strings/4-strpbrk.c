@@ -2,13 +2,13 @@
 
 /**
 
- * _strpbrk - Entry point
+ *_strpbrk - Entry point
 
- * @s: input
+ *@s: input
 
- * @accept: input
+ *@accept: input
 
- * Return: Always 0 (Success)
+ *Return: Always 0 (Success)
 
  */
 
@@ -16,29 +16,24 @@ char *_strpbrk(char *s, char *accept)
 
 {
 
-                int k;
+int k;
 
 
-                while (*s)
+while (*s)
 
-                {
+{
 
-                        for (k = 0; accept[k]; k++)
+for (k = 0; accept[k]; k++)
 
-                        {
+{
 
-                        if (*s == accept[k])
+if (*s == accept[k])
 
-                        return (s);
-
-                        }
-
-                s++;
-
-                }
-
-
-        return ('\0');
+return (s);
 
 }
+s++;
+}
+return ('\0');
 
+}
