@@ -37,7 +37,7 @@ int comparator(char *s, int n1, int n2)
  * Return: 1 if is a palindrome, 0 if not.
  */
 
-int is_palindrome(char *S)
+int is_palindrome(char *s)
 {
 	if (*s == '\0')
 	return (1);
