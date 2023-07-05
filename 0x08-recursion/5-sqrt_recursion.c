@@ -16,15 +16,16 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * actual_sqrt_recursion - recurses to find the natural
- * square root of a number
- * @n: number to calculate the square root of
+ * _sqrt - Calculates natural square root
+ * @n: number to calculate the square root
  * @i: iterate
- * Return: the resulting square root
+ *
+ * Return: the natural square root
  */
 int _sqrt(int n, int i)
 {
 	int sqrt = i * i;
+
 	if (sqrt > n)
 	return (-1);
 	if (sqrt == n)
